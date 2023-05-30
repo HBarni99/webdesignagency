@@ -1,0 +1,70 @@
+body{
+    background-color:lightgray;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+.logo{
+    float:left;
+    
+}
+.fejlec-szoveg{
+    margin-left: 50px;
+    margin-top: 40px;
+    font-family: 'Space Grotesk', sans-serif;
+    display:inline-block;
+}
+.fejlec{
+    height: 250px;
+}
+.main{
+    flex: 1;
+}
+span{
+    color:crimson;
+}
+.card-image{
+    height: 200px;
+    float:left;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.oldal{
+    width: 50%;
+}
+.bal{
+    float:left;
+}
+.jobb{
+    float:right;
+}
+.bemutato{
+    display: block;
+}
+@media (max-width: 1200px) {
+    .fejlec{
+        height: 400px;
+    }
+    .oldal {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+      }
+      .oldal img {
+        margin-bottom: 10px;
+        margin-left: 0;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+      }
+}
+footer{
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: right;
+    font-size: 14px;
+}
+hr{
+    border-top: 1px solid black;
+}
